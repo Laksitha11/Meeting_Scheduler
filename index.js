@@ -41,7 +41,7 @@ app.get('/getsignup',async(req,res)=>
     }
     catch(err)
     {
-        console.log("cannot able to read the records");
+        console.log("cannot read the records");
     }
 })
 app.post("/login", async (req, res) => {
