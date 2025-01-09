@@ -27,7 +27,7 @@ app.post("/signup", (req, res) => {
     });
     newUser.save();
     console.log("UserAdded Successfully");
-    res.status(200).send("User added successfully");
+    res.status(200).send("User is added successfully");
   } catch (err) {
     console.log(err);
   }
