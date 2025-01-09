@@ -9,7 +9,7 @@ app.use(express.json())
 mbd.connect("mongodb://localhost:27017/").then(()=>{   
   console.log("Mongodb connected");
 }).catch(()=>{
-  console.log("check your connection string");
+  console.log("check connection string");
 });
 app.get("/",(req,res)=>{
   res.send("welcome to backend server");
