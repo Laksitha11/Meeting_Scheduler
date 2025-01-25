@@ -26,7 +26,7 @@ app.post("/signup", (req, res) => {
       Password:Password
     });
     newUser.save();
-    console.log("UserAdded Successfully");
+    console.log("UserAdded successfully");
     res.status(200).send("User added successfully");
   } catch (err) {
     console.log(err);
